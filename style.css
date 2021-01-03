@@ -96,3 +96,17 @@ main {
 .movie:hover .overview{
   transform: translateY(0);
 }
+@media(max-width:1200px){
+  .movie{
+    margin: 1.2rem;
+    height: 500px;
+    width:300px ;
+  }
+}
+@media(max-width:900px){
+  .movie{
+    margin: 1.5rem;
+    height: 350px;
+    width:200px ;
+  }
+}
